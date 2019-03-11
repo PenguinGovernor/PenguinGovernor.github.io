@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
+    <title>Jorge Henriquez</title>
     <link>/</link>
-    <description>Recent content on Terminal</description>
+    <description>Recent content on Jorge Henriquez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2019 Jorge Henriquez</copyright>
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there My name is Jorge Henriquez and I’m a third-year computer engineering student at the University of California, Santa Cruz. I am passionate about technology and I strive to be nothing less than the best programmer I can be. Tech has certainly changed my world for the better and I’m certain that it can do even more amazing feats for humanity.
+But when I’m not hacking on the command line, or drowning in homework assignments, I try to find the time to improve myself and my workflow.</description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>/docs/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/</guid>
+      <description> Important Documents Résumé  </description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>/showcase/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description> Bus++ Slug Tour GoXor </description>
+    </item>
     
   </channel>
 </rss>
