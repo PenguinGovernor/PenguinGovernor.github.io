@@ -37,7 +37,11 @@ But when I’m not hacking on the command line, or drowning in homework assignme
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/showcase/</guid>
-      <description> Bus++ Slug Tour GoXor </description>
+      <description>Bus++ A real-time web application that tracks shuttle buses, and uses statistical analysis to determine how crowded they are. Bus++ also is able to accurately predict an estimated time of arrival between a shuttle and its related stops.
+Source
+Slug Tour Slug tour is an open-sourced iOS and Android application meant to introduce new Banana Slugs to the wonderful world of Baskin Engineering.
+Source
+GoXor GoXor is an encryption method written in the Go programming language, and is based on a xor cipher in conjunction with a one-time pad.</description>
     </item>
     
   </channel>
