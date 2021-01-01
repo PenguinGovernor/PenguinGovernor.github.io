@@ -10,13 +10,18 @@ TEMPLATES := templates/index.html templates/body.md
 PUBLIC_DIR := public
 PUBLIC_FILES := $(wildcard $(PUBLIC_DIR)/*)
 
+# CNAME contents
+CNAME := "www.jorgehenriquez.dev"
+
 # Output
 OUTPUT_DIR := dist
 OUTPUT_INDEX := $(OUTPUT_DIR)/index.html
-OUTPUT_FILES := $(patsubst $(PUBLIC_DIR)/%, $(OUTPUT_DIR)/%, $(PUBLIC_FILES)) $(OUTPUT_INDEX)
+OUTPUT_CNAME := $(OUTPUT_DIR)/CNAME
+OUTPUT_FILES := $(patsubst $(PUBLIC_DIR)/%, $(OUTPUT_DIR)/%, $(PUBLIC_FILES)) $(OUTPUT_INDEX) $(OUTPUT_DIR)/CNAME
+
 
 all: website
-website: $(OUTPUT_INDEX)
+website: $(OUTPUT_INDEX) $(OUTPUT_CNAME)
 
 # This creates the website
 $(OUTPUT_INDEX): $(BIN_NAME) $(OUTPUT_DIR) $(TEMPLATES) $(PUBLIC_FILES)
@@ -25,6 +30,9 @@ $(OUTPUT_INDEX): $(BIN_NAME) $(OUTPUT_DIR) $(TEMPLATES) $(PUBLIC_FILES)
 		-markdown $(word 2,$(TEMPLATES)) \
 		> $@
 	cp $(PUBLIC_FILES) $(OUTPUT_DIR)
+
+$(OUTPUT_CNAME): $(OUTPUT_DIR)
+	printf $(CNAME) > $(OUTPUT_CNAME)
 
 # This builds the go program.
 $(BIN_NAME): $(GO_FILES)
