@@ -19,6 +19,9 @@ OUTPUT_INDEX := $(OUTPUT_DIR)/index.html
 OUTPUT_CNAME := $(OUTPUT_DIR)/CNAME
 OUTPUT_FILES := $(patsubst $(PUBLIC_DIR)/%, $(OUTPUT_DIR)/%, $(PUBLIC_FILES)) $(OUTPUT_INDEX) $(OUTPUT_DIR)/CNAME
 
+# Git stuff
+GIT_COMMIT_MSG := "Update website"
+
 
 all: website
 website: $(OUTPUT_INDEX) $(OUTPUT_CNAME)
@@ -51,5 +54,7 @@ clean:
 
 .PHONY: publish
 publish:
+	git add -A
+	git commit -m "$(GIT_COMMIT_MSG)"
 	git push
 	git subtree push --prefix $(OUTPUT_DIR) origin gh-pages

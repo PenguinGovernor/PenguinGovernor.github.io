@@ -5,7 +5,8 @@
 Welcome to my website!
 As you can see it's rather simple, and that is on purpose!
 My website has taken its design cues from [this website](https://motherfuckingwebsite.com/) and I love it.
-Also, if you've noticed all the famous engineers have rather simple websites, [Rob Pike](http://herpolhode.com/rob/) and [Ryan Dahl](https://tinyclouds.org/), for example. So maybe this website is foreshadowing a bit, a boy can dream right?
+Also, if you've noticed all the famous engineers have rather simple websites, [Rob Pike](http://herpolhode.com/rob/) and [Ryan Dahl](https://tinyclouds.org/), for example. So maybe this website is foreshadowing a bit.
+A boy can dream right?
 But anyways...
 
 I'm Jorge!
