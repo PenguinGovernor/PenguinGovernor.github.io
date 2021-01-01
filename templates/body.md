@@ -32,7 +32,8 @@ This project was my fist foray into GRPC and unreliable networks.
 I'm proud of my team's work and I'm happy to show it off!
 
 You can find all of our work at our [GitHub organization](https://github.com/UCSC-CSE123).
-You can also our design document on my LinkedIn that's linked below (pun intended).
+
+You can also find our design document on my LinkedIn that's linked below (pun intended).
 
 ## The Babel Sandbox
 

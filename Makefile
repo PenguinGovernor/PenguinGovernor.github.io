@@ -53,7 +53,7 @@ clean:
 	- rm $(BIN_NAME)
 
 .PHONY: publish
-publish:
+publish: clean website
 	git add -A
 	git commit -m "$(GIT_COMMIT_MSG)"
 	git push
