@@ -1,0 +1,35 @@
+body {
+  background-color: #282828;
+  color: #ebdbb2;
+  font-family: "JetBrains Mono", monospace;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  color: #98971a;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #b8bb26;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #d79921;
+}
+
+small {
+  color: #458588;
+  text-decoration: underline;
+  cursor: pointer;
+}
