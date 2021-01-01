@@ -51,4 +51,5 @@ clean:
 
 .PHONY: publish
 publish:
+	git push
 	git subtree push --prefix $(OUTPUT_DIR) origin gh-pages
