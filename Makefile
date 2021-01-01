@@ -11,7 +11,7 @@ PUBLIC_DIR := public
 PUBLIC_FILES := $(wildcard $(PUBLIC_DIR)/*)
 
 # CNAME contents
-CNAME := "www.jorgehenriquez.dev"
+CNAME := "www.jorgehenriquez.dev" # edit me
 
 # Output
 OUTPUT_DIR := dist
