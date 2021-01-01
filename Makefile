@@ -32,7 +32,7 @@ $(OUTPUT_INDEX): $(BIN_NAME) $(OUTPUT_DIR) $(TEMPLATES) $(PUBLIC_FILES)
 	cp $(PUBLIC_FILES) $(OUTPUT_DIR)
 
 $(OUTPUT_CNAME): $(OUTPUT_DIR)
-	printf $(CNAME) > $(OUTPUT_CNAME)
+	echo $(CNAME) > $(OUTPUT_CNAME)
 
 # This builds the go program.
 $(BIN_NAME): $(GO_FILES)
