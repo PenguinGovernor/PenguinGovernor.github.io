@@ -45,7 +45,7 @@ Many thanks to my mentor [Ian](https://www.linkedin.com/in/jnnngs/) for helping 
 
 ## My Other Links
 
-Just in case you want to learn more about me (like if you're a hiring manager _wink wink_ 🤓) here are some more links for you to peruse:
+Just in case you want to learn more about me, here are some more links for you to peruse:
 
 - [Twitter 🐦](https://twitter.com/AliensTookJorge)
 - [GitHub 👾](https://github.com/penguingovernor)
